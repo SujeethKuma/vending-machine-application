@@ -54,22 +54,6 @@ class CustomerVendingMachineImplTest {
 
     }
 
-//    @Test
-//    public void shouldThrowNoChangeExceptionWhenNoChangeAvailable() {
-//        assertThrows(NoChangeException.class, () -> {
-//            ProductRequest productRequest = new ProductRequest();
-//            productRequest.setProductSlot("A0");
-//            List<Double> coins = new ArrayList<>();
-//            coins.add(0.1);
-//            productRequest.setCoins(coins);
-//
-//            List<Double> expectedChange = new ArrayList<>();
-//            expectedChange.add(0.1);
-//            assertEquals(expectedChange, customerVendingMachine.buyProduct(productRequest));
-//        });
-//
-//    }
-
     @Test
     public void shouldFetchCorrectPricePerItemWhenPriceUpdated() {
         UpdatePriceRequest updatePriceRequest = new UpdatePriceRequest();
