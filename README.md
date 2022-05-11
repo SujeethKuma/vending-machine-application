@@ -25,7 +25,7 @@ You can test the below endpoints in the Postman
 
 * Admin Endpoints
 
-https://localhost:8080/admin/vendingMachine/productSlots/addNumberOfItem - PUT endpoint to add number of items to the product slot which accepts below sample request
+localhost:8080/admin/vendingMachine/productSlots/addNumberOfItem - PUT endpoint to add number of items to the product slot which accepts below sample request
 
 ```
 {
@@ -34,14 +34,14 @@ https://localhost:8080/admin/vendingMachine/productSlots/addNumberOfItem - PUT e
 }
 ```
 
-https://localhost:8080/admin/vendingMachine/productSlots/{productSlot}/itemCount - GET endpoint which accepts product slot as path param
+localhost:8080/admin/vendingMachine/productSlots/{productSlot}/itemCount - GET endpoint which accepts product slot as path param
 
 ```
 {productSlot} - "A0"
 
 ```
 
-https://localhost:8080/admin/vendingMachine/productSlots/updatePrice - PUT endpoint to update price to the product slot which accepts the below sample request
+localhost:8080/admin/vendingMachine/productSlots/updatePrice - PUT endpoint to update price to the product slot which accepts the below sample request
 
 ```
 {
@@ -50,13 +50,13 @@ https://localhost:8080/admin/vendingMachine/productSlots/updatePrice - PUT endpo
 }
 ```
 
-https://localhost:8080/admin/vendingMachine/productSlots/{productSlot}/pricePerItem - GET endpoint to get the price per item in the product slot
+localhost:8080/admin/vendingMachine/productSlots/{productSlot}/pricePerItem - GET endpoint to get the price per item in the product slot
 
 ```
 {productSlot} - "A0"
 
 ```
-https://localhost:8080/admin/vendingMachine/coins/addCoin - PUT end point to add coins to coin type which accepts the below sample request
+localhost:8080/admin/vendingMachine/coins/addCoin - PUT end point to add coins to coin type which accepts the below sample request
 
 ```
 {
@@ -65,7 +65,7 @@ https://localhost:8080/admin/vendingMachine/coins/addCoin - PUT end point to add
 }
 ```
 
-https://localhost:8080/admin/vendingMachine/coins/{coinType}/count - GET endpoint to get number of coins for the given coin type
+localhost:8080/admin/vendingMachine/coins/{coinType}/count - GET endpoint to get number of coins for the given coin type
 
 ```
 {coinType} - 0.20
@@ -74,13 +74,13 @@ https://localhost:8080/admin/vendingMachine/coins/{coinType}/count - GET endpoin
 
 * Customer Endpoints
 
-https://localhost:8080/user/vendingMachine/productSlots/{productSlot}/price - GET endpoint to get the price of the item in the product slot
+localhost:8080/user/vendingMachine/productSlots/{productSlot}/price - GET endpoint to get the price of the item in the product slot
 
 ```
 {productSlot} - "A0"
 
 ```
-https://localhost:8080/user/vendingMachine/purchaseProduct - POST endpoint to purchase the product and dispense the change which accepts the the below sample request
+localhost:8080/user/vendingMachine/purchaseProduct - POST endpoint to purchase the product and dispense the change which accepts the the below sample request
 
 ```
 {
