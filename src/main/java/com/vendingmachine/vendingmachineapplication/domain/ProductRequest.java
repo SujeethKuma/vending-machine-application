@@ -2,11 +2,11 @@ package com.vendingmachine.vendingmachineapplication.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.lang.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 
 public class ProductRequest {
@@ -14,7 +14,7 @@ public class ProductRequest {
     @NotBlank
     String productSlot;
     @JsonProperty
-    @NotBlank
+    @NotNull
     List<Double> coins = new ArrayList<>();
 
     public String getProductSlot() {

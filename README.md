@@ -29,7 +29,7 @@ localhost:8080/admin/vendingMachine/productSlots/addNumberOfItem - PUT endpoint 
 
 ```
 {
-"productSlot": "A0"
+"productSlot": "A0",
 "numberOfItems": 2
 }
 ```
@@ -45,7 +45,7 @@ localhost:8080/admin/vendingMachine/productSlots/updatePrice - PUT endpoint to u
 
 ```
 {
-"productSlot": "A0"
+"productSlot": "A0",
 "priceOfItem": 2.0
 }
 ```
@@ -60,7 +60,7 @@ localhost:8080/admin/vendingMachine/coins/addCoin - PUT end point to add coins t
 
 ```
 {
-"coinType": 0.20
+"coinType": 0.20,
 "numberOfCoins": 2
 }
 ```
@@ -84,7 +84,7 @@ localhost:8080/user/vendingMachine/purchaseProduct - POST endpoint to purchase t
 
 ```
 {
-"productSlot": "A0"
+"productSlot": "A0",
 "coins": [0.2, 0.5]
 }
 ```
